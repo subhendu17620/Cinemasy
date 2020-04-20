@@ -1,0 +1,29 @@
+.show-list-container {
+  text-align: center;
+}
+
+.show-list-container h1 {
+  font-size: 50px;
+}
+
+.show-list-container .show-list {
+  padding-top: 30px;
+}
+
+.show-list-container .show-list span {
+  text-decoration: none;
+  color: #ff2e63;
+  border: 2px solid #08d9d6;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 25px;
+  font-size: 25px;
+}
+
+.show-list-container .show-list span:hover {
+  color: #252a34;
+  background-color: #08d9d6;
+  font-size: 22px;
+  outline: none;
+}
+/*# sourceMappingURL=book-date.styles.css.map */

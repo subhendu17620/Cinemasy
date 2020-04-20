@@ -1,0 +1,56 @@
+.pay-container {
+  //margin: 0px 10px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+
+  h2 {
+    font-size: 35px;
+  }
+
+  .pay-form-container {
+    //margin: 20px;
+    .input {
+      //display: block;
+      height: 35px;
+      margin: 10px 0px;
+      font-size: 16px;
+      width: 100%;
+      color: white;
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid white;
+      outline: transparent;
+    }
+
+    div {
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .button {
+        float: left;
+        text-decoration: none;
+        background: transparent;
+        color: #ff2e63;
+        border: 2px solid #08d9d6;
+        border-radius: 10px;
+        padding: 10px 20px;
+        margin: 25px;
+        font-size: 20px;
+
+        &:hover {
+          color: #252a34;
+          background-color: #08d9d6;
+          outline: none;
+        }
+      }
+
+      span {
+        font-size: 20px;
+        float: right;
+      }
+    }
+  }
+}

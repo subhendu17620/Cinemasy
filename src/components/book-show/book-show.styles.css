@@ -1,0 +1,41 @@
+.seat-list-container {
+  text-align: center;
+}
+
+.seat-list-container h1 {
+  font-size: 50px;
+}
+
+.seat-list-container .seat-list {
+  padding-top: 30px;
+}
+
+.seat-list-container .seat-list .reserved {
+  text-decoration: none;
+  color: rgba(125, 125, 125, 0.5);
+  cursor: default;
+  border: 1px solid rgba(125, 125, 125, 0.5);
+  padding: 10px;
+  margin: 10px;
+  font-size: 25px;
+  pointer-events: none;
+  border-radius: 10px;
+}
+
+.seat-list-container .seat-list .link {
+  text-decoration: none;
+  color: #ff2e63;
+  border: 2px solid #08d9d6;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 25px;
+  font-size: 25px;
+}
+
+.seat-list-container .seat-list .link:hover {
+  color: #252a34;
+  background-color: #08d9d6;
+  font-size: 22px;
+  outline: none;
+}
+/*# sourceMappingURL=book-show.styles.css.map */

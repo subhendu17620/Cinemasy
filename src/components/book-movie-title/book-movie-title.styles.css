@@ -1,0 +1,29 @@
+.date-list-container {
+  text-align: center;
+}
+
+.date-list-container h1 {
+  font-size: 50px;
+}
+
+.date-list-container .date-list {
+  padding-top: 30px;
+}
+
+.date-list-container .date-list span {
+  text-decoration: none;
+  color: #ff2e63;
+  border: 2px solid #08d9d6;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 25px;
+  font-size: 25px;
+}
+
+.date-list-container .date-list span:hover {
+  color: #252a34;
+  background-color: #08d9d6;
+  font-size: 22px;
+  outline: none;
+}
+/*# sourceMappingURL=book-movie-title.styles.css.map */

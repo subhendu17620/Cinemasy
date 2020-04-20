@@ -1,0 +1,39 @@
+.home-page {
+  //   text-align: center;
+  margin: 0 auto;
+  //   align-items: center;
+  width: 90%;
+
+  .load-more-items {
+    text-align: center;
+    align-items: center;
+
+    div {
+      margin: auto;
+      margin-bottom: 30px;
+      background-color: #ff2e63;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      width: 80%;
+      // border: 1px solid #08d9d6;
+      font-weight: bold;
+      border-radius: 20px;
+      color: #eaeaea;
+
+      &:hover {
+        background-color: #a8314f;
+      }
+    }
+  }
+}
+
+h1 {
+  margin-left: 30px;
+  img {
+    color: white;
+    cursor: pointer;
+    height: 30px;
+  }
+}

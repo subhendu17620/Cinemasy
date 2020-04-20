@@ -1,0 +1,90 @@
+.header {
+  height: 70px;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  background-color: #252a34;
+  color: white;
+
+  .container {
+    padding: 0px 50px;
+  }
+
+  .logo-container {
+    height: 100%;
+    width: 25%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+
+    .logo {
+      color: #ff2e63;
+      font-size: 30px;
+      padding: 5px;
+      &:hover {
+        font-size: 25px;
+      }
+    }
+  }
+
+  .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .option {
+      padding: 10px 15px;
+      cursor: pointer;
+      color: #eaeaea;
+      font-size: 25px;
+      &:hover {
+        font-size: 22px;
+        font-weight: 500;
+        color: #ff2e63;
+      }
+    }
+  }
+
+  .sign-in-container {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .sign-in {
+      cursor: pointer;
+      color: #ff2e63;
+      font-size: 30px;
+
+      &:hover {
+        color: #08d9d6;
+        border-bottom: 2px solid #ff2e63;
+      }
+    }
+
+    .log-out {
+      cursor: pointer;
+      color: #ff2e63;
+      font-size: 30px;
+
+      &:hover {
+        color: #08d9d6;
+        border-bottom: 2px solid #ff2e63;
+      }
+    }
+  }
+}
+
+.help-line-avatar {
+  // margin: 0;
+  // padding: 0;
+  height: 50px;
+  cursor: pointer;
+}

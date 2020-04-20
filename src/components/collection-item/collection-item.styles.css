@@ -1,0 +1,45 @@
+.collection-item {
+  display: inline-block;
+  margin: 2em;
+  height: 300px;
+  width: 200px;
+  color: white;
+}
+
+.collection-item:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  transition: -webkit-transform 0.5s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  transition: transform 0.5s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  transition: transform 0.5s cubic-bezier(0.25, 0.45, 0.45, 0.95), -webkit-transform 0.5s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+
+.collection-item .image-container {
+  height: 90%;
+  width: 100%;
+  opacity: 1;
+}
+
+.collection-item .image-container:hover .image {
+  opacity: 1;
+}
+
+.collection-item .image-container .image {
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+}
+
+.collection-item .collection-footer {
+  height: 10%;
+  width: 100%;
+  font-size: 15px;
+  margin: 8px 0px;
+}
+
+.collection-item .collection-footer .rating {
+  float: right;
+}
+/*# sourceMappingURL=collection-item.styles.css.map */
