@@ -5,9 +5,6 @@ import ReactDOM from "react-dom";
 
 import QRview from "../qr-view-page/qr-view";
 
-import QRCode from "qrcode.react";
-import qrGenerate from "../qr-view-page/qr-view";
-
 class PayPage extends React.Component {
   constructor(props) {
     super(props);
@@ -55,7 +52,7 @@ class PayPage extends React.Component {
             ReactDOM.render(
               <QRview
                 msg={
-                  "Movie: " +
+                  "Welcome to Cinemasy \nMovie: " +
                   this.props.match.params.Title.replace(/\+/g, " ") +
                   "\n" +
                   "Date: " +

@@ -11,7 +11,10 @@ function ContactPage(props) {
           alt=""
         />
 
-        <a className="contact-content">
+        <a
+          className="contact-content"
+          href="https://www.google.com/maps?f=d&daddr=13.0183642,77.5078933&hl=en/"
+        >
           <span className="sub-content">Visit us at: </span>221-B Baker Street
         </a>
       </div>
@@ -43,6 +46,7 @@ function ContactPage(props) {
       </div>
 
       <h3>We are happy to help</h3>
+      <h3>Made with ❤️ by Subhendu</h3>
     </div>
   );
 }

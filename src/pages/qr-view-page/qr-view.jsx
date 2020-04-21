@@ -3,25 +3,6 @@ import "./qr-view.scss";
 
 import QRCode from "qrcode.react";
 
-// class qrView extends React.Component {
-//   render() {
-//     return (
-//       <div>
-//         <p>dsadsasd</p>
-//         {/* <QRCode
-//           value={this.props.msg}
-//           size={160}
-//           bgColor={"#ffffff"}
-//           fgColor={"#000000"}
-//           level={"L"}
-//           includeMargin={false}
-//           renderAs={"svg"}
-//         /> */}
-//       </div>
-//     );
-//   }
-// }
-
 function QRview(props) {
   return (
     <div>
@@ -45,9 +26,6 @@ function QRview(props) {
     </div>
   );
 }
-// function qrGenerate(props) {
-//   return <h1>asds</h1>;
-// }
 
 export default QRview;
 
