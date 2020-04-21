@@ -1,0 +1,26 @@
+.contact-container {
+  text-align: center;
+}
+
+.sub-contact {
+  margin: 20px auto;
+  padding: 15px;
+  border: 2px solid #08d9d6;
+  border-radius: 10px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.contact-content {
+  font-size: 40px;
+  color: #eaeaea;
+}
+.contact-content:hover {
+  color: #08d9d6;
+}
+.sub-content {
+  color: #ff2e63;
+}
+.contact-img {
+  height: 100px;
+}

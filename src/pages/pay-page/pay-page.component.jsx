@@ -1,6 +1,12 @@
 import React from "react";
 
 import "./pay-page.styles.scss";
+import ReactDOM from "react-dom";
+
+import QRview from "../qr-view-page/qr-view";
+
+import QRCode from "qrcode.react";
+import qrGenerate from "../qr-view-page/qr-view";
 
 class PayPage extends React.Component {
   constructor(props) {
@@ -22,16 +28,9 @@ class PayPage extends React.Component {
         props.match.params.seat,
     };
   }
-
   handleSubmit = (event) => {
     event.preventDefault();
-
     if (
-      this.state.fullName === "" ||
-      this.state.username === "" ||
-      this.state.city === "" ||
-      this.state.state === "" ||
-      this.state.zip === "" ||
       this.state.nameOnCard === "" ||
       this.state.cardNumber === "" ||
       this.state.expirationMonth === "" ||
@@ -53,10 +52,26 @@ class PayPage extends React.Component {
           if (res.status === 400) {
             alert("ERROR: Fill all the required fields");
           } else {
-            alert(
-              "Payment done, booked seat successfully. You'll be redirected to your homepage"
+            ReactDOM.render(
+              <QRview
+                msg={
+                  "Movie: " +
+                  this.props.match.params.Title.replace(/\+/g, " ") +
+                  "\n" +
+                  "Date: " +
+                  this.props.match.params.date +
+                  "\n" +
+                  "Show Time: " +
+                  this.props.match.params.show +
+                  "\n" +
+                  "Seat No.: " +
+                  this.props.match.params.seat
+                }
+              />,
+              document.querySelector(".pay-container")
             );
-            this.props.history.push("/");
+
+            // this.props.history.push("/");
           }
         })
         .catch((err) => console.log(err));
@@ -99,30 +114,34 @@ class PayPage extends React.Component {
               onChange={this.handleChange}
               required
             />
-            <input
-              className="input"
-              name="expirationMonth"
-              type="text"
-              label="Expiration Month"
-              placeholder="Expiration Month"
-              value={this.state.expirationMonth}
-              onChange={this.handleChange}
-              required
-            />
-            <input
-              className="input"
-              name="expirationYear"
-              type="text"
-              label="Expiration Year"
-              placeholder="Expiration Year"
-              value={this.state.expirationYear}
-              onChange={this.handleChange}
-              required
-            />
+            <div className="expiry-box">
+              <input
+                className="input"
+                name="expirationMonth"
+                type="text"
+                label="Expiration Month"
+                placeholder="Expiration Month"
+                value={this.state.expirationMonth}
+                onChange={this.handleChange}
+                required
+              />
+              &nbsp;&nbsp;/&nbsp;&nbsp;
+              <input
+                className="input"
+                name="expirationYear"
+                type="text"
+                label="Expiration Year"
+                placeholder="Expiration Year"
+                value={this.state.expirationYear}
+                onChange={this.handleChange}
+                required
+              />
+            </div>
+
             <input
               className="input"
               name="cvv"
-              type="text"
+              type="password"
               label="CVV"
               placeholder="CVV"
               value={this.state.cvv}

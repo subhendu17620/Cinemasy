@@ -9,6 +9,8 @@
   }
 
   .pay-form-container {
+    border: 2px solid #ff2e63;
+    padding: 30px;
     //margin: 20px;
     .input {
       //display: block;
@@ -21,6 +23,9 @@
       border: none;
       border-bottom: 1px solid white;
       outline: transparent;
+    }
+    .expiry-box {
+      display: flex;
     }
 
     div {

@@ -85,6 +85,9 @@
 .help-line-avatar {
   // margin: 0;
   // padding: 0;
-  height: 50px;
+  height: 55px;
   cursor: pointer;
+}
+.help-line-avatar:hover {
+  height: 48px;
 }

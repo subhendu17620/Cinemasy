@@ -38,11 +38,13 @@ function Header(props) {
         </Link>
       </div>
       <div className="container sign-in-container">
-        <img
-          className="help-line-avatar"
-          src="https://image.flaticon.com/icons/svg/2776/2776451.svg"
-          alt=""
-        />
+        <Link to="/contact">
+          <img
+            className="help-line-avatar"
+            src="https://image.flaticon.com/icons/svg/2776/2776451.svg"
+            alt="customer-care-avatar"
+          />
+        </Link>
         &nbsp;&nbsp;&nbsp;
         {props.isLoggedIn === "true" ? (
           <Link className="log-out" onClick={handleLogout}>

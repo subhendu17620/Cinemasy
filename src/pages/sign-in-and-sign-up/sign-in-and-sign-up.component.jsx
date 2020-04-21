@@ -12,6 +12,8 @@ function SignInAndSignUp({ onAuthChange }) {
         <SignIn onAuthChange={onAuthChange} />
         <SignUp onAuthChange={onAuthChange} />
       </div>
+
+      <div className="credits">copyright &copy; Subhendu Maji 2020</div>
     </div>
   );
 }
