@@ -43,6 +43,7 @@ const BookShow = ({ match }) => {
   return (
     <div className="seat-list-container">
       <h1>Select seats :</h1>
+      <div className="screen">screen</div>
       <div className="seat-list">
         <Link to={`${match.url}/01/pay`} id="01" className="link">
           01
@@ -140,6 +141,15 @@ const BookShow = ({ match }) => {
         <Link to={`${match.url}/30/pay`} id="30" className="link">
           30
         </Link>
+      </div>
+      <br />
+      <br />
+      <div className="legends">
+        <div className="available-seat">XX</div>
+        <h3>Available Seats</h3>
+
+        <div className="reserved-seat">XX</div>
+        <h3>Reserved Seats</h3>
       </div>
     </div>
   );

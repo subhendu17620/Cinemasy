@@ -4,7 +4,15 @@
   h1 {
     font-size: 50px;
   }
+  .screen {
+    width: 900px;
+    height: 100px;
+    margin: 0 auto;
 
+    border: solid 6px #08d9d6;
+    border-color: #08d9d6 transparent transparent transparent;
+    border-radius: 70%/100px 100px 0 0;
+  }
   .seat-list {
     padding-top: 30px;
 
@@ -21,17 +29,8 @@
     }
 
     .link {
-      // text-decoration: none;
-      // color: rgb(0, 195, 255);
-      // border: 1px solid rgb(0, 195, 255);
-      // padding: 10px;
-      // margin: 10px;
-      // font-size: 25px;
-      // border-radius: 10px;
-
       text-decoration: none;
       color: #ff2e63;
-      //   outlin
       border: 2px solid #08d9d6;
       border-radius: 10px;
       padding: 10px;
@@ -47,4 +46,28 @@
       }
     }
   }
+}
+
+.available-seat {
+  width: 3.5%;
+  text-decoration: none;
+  color: #ff2e63;
+  border: 2px solid #08d9d6;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 25px auto;
+  font-size: 25px;
+}
+.reserved-seat {
+  width: 3.5%;
+
+  text-decoration: none;
+  color: rgba(125, 125, 125, 0.5);
+  cursor: default;
+  border: 1px solid rgba(125, 125, 125, 0.5);
+  padding: 10px;
+  margin: 10px auto;
+  font-size: 25px;
+  pointer-events: none;
+  border-radius: 10px;
 }
