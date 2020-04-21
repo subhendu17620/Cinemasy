@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/subhendu17620/Cinemasy---Movie-Booking-System/static/css/main.a74729c0.chunk.css",
-    "main.js": "/subhendu17620/Cinemasy---Movie-Booking-System/static/js/main.fdbcd354.chunk.js",
-    "main.js.map": "/subhendu17620/Cinemasy---Movie-Booking-System/static/js/main.fdbcd354.chunk.js.map",
-    "runtime-main.js": "/subhendu17620/Cinemasy---Movie-Booking-System/static/js/runtime-main.0906624d.js",
-    "runtime-main.js.map": "/subhendu17620/Cinemasy---Movie-Booking-System/static/js/runtime-main.0906624d.js.map",
-    "static/js/2.77e0dac0.chunk.js": "/subhendu17620/Cinemasy---Movie-Booking-System/static/js/2.77e0dac0.chunk.js",
-    "static/js/2.77e0dac0.chunk.js.map": "/subhendu17620/Cinemasy---Movie-Booking-System/static/js/2.77e0dac0.chunk.js.map",
-    "index.html": "/subhendu17620/Cinemasy---Movie-Booking-System/index.html",
-    "precache-manifest.e8c5389a2f4c77731a1014feac99be3a.js": "/subhendu17620/Cinemasy---Movie-Booking-System/precache-manifest.e8c5389a2f4c77731a1014feac99be3a.js",
-    "service-worker.js": "/subhendu17620/Cinemasy---Movie-Booking-System/service-worker.js",
-    "static/css/main.a74729c0.chunk.css.map": "/subhendu17620/Cinemasy---Movie-Booking-System/static/css/main.a74729c0.chunk.css.map",
-    "static/js/2.77e0dac0.chunk.js.LICENSE.txt": "/subhendu17620/Cinemasy---Movie-Booking-System/static/js/2.77e0dac0.chunk.js.LICENSE.txt"
+    "main.css": "/subhendu17620/Cinemasy/static/css/main.a74729c0.chunk.css",
+    "main.js": "/subhendu17620/Cinemasy/static/js/main.4026daee.chunk.js",
+    "main.js.map": "/subhendu17620/Cinemasy/static/js/main.4026daee.chunk.js.map",
+    "runtime-main.js": "/subhendu17620/Cinemasy/static/js/runtime-main.b1c92ec2.js",
+    "runtime-main.js.map": "/subhendu17620/Cinemasy/static/js/runtime-main.b1c92ec2.js.map",
+    "static/js/2.77e0dac0.chunk.js": "/subhendu17620/Cinemasy/static/js/2.77e0dac0.chunk.js",
+    "static/js/2.77e0dac0.chunk.js.map": "/subhendu17620/Cinemasy/static/js/2.77e0dac0.chunk.js.map",
+    "index.html": "/subhendu17620/Cinemasy/index.html",
+    "precache-manifest.50f454a58f4b178aefef5488bfed2e0e.js": "/subhendu17620/Cinemasy/precache-manifest.50f454a58f4b178aefef5488bfed2e0e.js",
+    "service-worker.js": "/subhendu17620/Cinemasy/service-worker.js",
+    "static/css/main.a74729c0.chunk.css.map": "/subhendu17620/Cinemasy/static/css/main.a74729c0.chunk.css.map",
+    "static/js/2.77e0dac0.chunk.js.LICENSE.txt": "/subhendu17620/Cinemasy/static/js/2.77e0dac0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0906624d.js",
+    "static/js/runtime-main.b1c92ec2.js",
     "static/js/2.77e0dac0.chunk.js",
     "static/css/main.a74729c0.chunk.css",
-    "static/js/main.fdbcd354.chunk.js"
+    "static/js/main.4026daee.chunk.js"
   ]
 }
