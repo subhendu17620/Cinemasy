@@ -26,6 +26,7 @@ class PayPage extends React.Component {
     };
   }
   handleSubmit = (event) => {
+    var letters = /^[A-Za-z]+$/;
     event.preventDefault();
     if (
       this.state.nameOnCard === "" ||
@@ -35,6 +36,19 @@ class PayPage extends React.Component {
       this.state.cvv === ""
     ) {
       alert("Please fill out all the fields");
+    } else if (this.state.nameOnCard.length < 3) {
+      alert("Enter a valid name with more than 3 Character.");
+    } else if (this.state.cardNumber.length !== 16) {
+      alert("Please Enter valid Card Number");
+    } else if (parseInt(this.state.expirationMonth) > 12) {
+      alert("Please Enter valid Expiration Month");
+    } else if (parseInt(this.state.expirationYear) < 20) {
+      alert("Please Enter valid Expiration Year");
+    } else if (this.state.cvv.length !== 3) {
+      alert(
+        parseInt(this.state.expirationYear) +
+          "Please enter valid 3 digit CVV number."
+      );
     } else {
       fetch("http://localhost:3001/api/pay", {
         method: "POST",
