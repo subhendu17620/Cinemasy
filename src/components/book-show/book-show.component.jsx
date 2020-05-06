@@ -147,7 +147,6 @@ const BookShow = ({ match }) => {
       <div className="legends">
         <div className="available-seat">XX</div>
         <h3>Available Seats</h3>
-
         <div className="reserved-seat">XX</div>
         <h3>Reserved Seats</h3>
       </div>
