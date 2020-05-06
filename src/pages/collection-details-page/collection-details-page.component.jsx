@@ -12,7 +12,7 @@ const CollectionDetailsPage = ({ match }) => {
   const currentCollection = collections.find(
     (collection) => collection.imdbID === match.params.imdbID
   );
-  console.log(currentCollection);
+  // console.log(currentCollection);
   return (
     <div>
       <Switch>

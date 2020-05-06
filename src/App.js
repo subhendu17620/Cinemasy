@@ -10,7 +10,6 @@ import Popular from "./pages/popular/popular.component";
 import SignInAndSignUp from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.component";
 import Header from "./components/header/header.component";
 import CollectionDetailsPage from "./pages/collection-details-page/collection-details-page.component";
-import qrCode from "./pages/qr-view-page/qr-view";
 import ContactPage from "./pages/contact-page/contactPage";
 
 class App extends React.Component {
@@ -62,11 +61,11 @@ class App extends React.Component {
           <Route path="/upcoming" component={Upcoming} />
           <Route path="/popular" component={Popular} />
 
+
           <Route
             path="/signin"
             component={() => <SignInAndSignUp onAuthChange={this.onChange} />}
           />
-          <Route path="/qrCode" component={qrCode} />
           <Route path="/contact" component={ContactPage} />
           <Route path="/:imdbID" component={CollectionDetailsPage} />
         </Switch>
