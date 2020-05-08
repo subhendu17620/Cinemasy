@@ -78,3 +78,27 @@ here's the screenshots.
 #### Contact Page
 
 <img src="Screenshot/10.png"/>
+
+
+
+
+
+The booking history and users data are stored in MongoDB (offline):
+
+* To view
+
+  1. run `mongo`.(provided you have mongo already setup)
+
+  2.  then run `use cinemasy`
+
+  3. then ,
+
+     1. for viewing user history
+
+        * `db.users.find()`
+
+     2. for viewing booking history
+
+        * `db.bookings.find()`
+
+          
