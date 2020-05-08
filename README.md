@@ -26,60 +26,34 @@ This is React Project for Movie Booking System.
 here's the screenshots.
 
 #### landing page
-
 <img src="Screenshot/1.png"/>
 
-
-
 #### upcoming page
-
 <img src="Screenshot/2.png"/>
 
 #### Sign-In and Login Page
-
 <img src="Screenshot/3.png"/>
 
 #### Description page 
-
 <img src="Screenshot/4.png"/>
 
-
-
 #### Select Date Page
-
 <img src="Screenshot/5.png"/>
 
-
-
 #### Select Show Time Page
-
 <img src="Screenshot/6.png"/>
 
-
-
 #### Select Seat page
-
 <img src="Screenshot/7.png"/>
 
-
-
 #### Pay Page
-
 <img src="Screenshot/8.png"/>
 
-
-
 #### payment Successful - QR Code Generated
-
 <img src="Screenshot/9.png"/> 
 
-
-
 #### Contact Page
-
 <img src="Screenshot/10.png"/>
-
-
 
 
 
