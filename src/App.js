@@ -56,11 +56,10 @@ class App extends React.Component {
         />
 
         <Switch>
-          <Route exact={true} path="/" component={HomePage} />
+          <Route exact path="/" component={HomePage} />
           <Route path="/nowshowing" component={NowShowing} />
           <Route path="/upcoming" component={Upcoming} />
           <Route path="/popular" component={Popular} />
-
 
           <Route
             path="/signin"
