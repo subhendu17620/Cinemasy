@@ -9,6 +9,7 @@ import CollectionDetailsMovie from "../../components/collection-details-movie/co
 
 const CollectionDetailsPage = ({ match }) => {
   const collections = MOVIE_DATA;
+  // eslint-disable-next-line
   const currentCollection = collections.find(
     (collection) => collection.imdbID === match.params.imdbID
   );

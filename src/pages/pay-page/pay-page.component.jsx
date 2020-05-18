@@ -26,7 +26,6 @@ class PayPage extends React.Component {
     };
   }
   handleSubmit = (event) => {
-    var letters = /^[A-Za-z]+$/;
     event.preventDefault();
     if (
       this.state.nameOnCard === "" ||

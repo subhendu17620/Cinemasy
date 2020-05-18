@@ -18,7 +18,21 @@ class SignUp extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
 
-    if (this.state.password === this.state.confirmPassword) {
+    if (this.state.fullName.length < 3) {
+      alert("Enter a Valid Full Name with Min. 3 Character");
+    } else if (
+      this.state.username.length < 3 ||
+      !this.state.username.includes("@") ||
+      !this.state.username.includes(".")
+    ) {
+      alert("Enter a Valid Email");
+    } else if (this.state.contactNumber.length !== 10) {
+      alert("Enter a Valid Phone Number");
+    } else if (this.state.password.length < 8) {
+      alert("Enter a Password with Min. 8 Characters");
+    } else if (this.state.password !== this.state.confirmPassword) {
+      alert("Password and Confirm Password fields do not match!");
+    } else {
       fetch("http://localhost:3001/api/register", {
         method: "POST",
         headers: {
@@ -41,8 +55,6 @@ class SignUp extends React.Component {
           }
         })
         .catch((err) => console.log(err));
-    } else {
-      alert("Password and Confirm Password fields do not match!");
     }
   };
 
@@ -94,7 +106,7 @@ class SignUp extends React.Component {
               name="password"
               type="password"
               label="Password"
-              placeholder="Password"
+              placeholder="Password (min. 8 characters)"
               value={this.state.password}
               onChange={this.handleChange}
               required

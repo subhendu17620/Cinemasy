@@ -29,5 +29,3 @@ function QRview(props) {
 
 export default QRview;
 
-{
-}

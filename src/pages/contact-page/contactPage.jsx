@@ -46,7 +46,9 @@ function ContactPage(props) {
       </div>
 
       <h3>We are happy to help</h3>
-      <h3>Made with ❤️ by Subhendu</h3>
+      <h3>
+        Made with <span>❤️</span> by Subhendu
+      </h3>
     </div>
   );
 }
