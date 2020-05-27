@@ -36,6 +36,7 @@
 
       .button {
         float: left;
+        cursor: pointer;
         text-decoration: none;
         background: transparent;
         color: #ff2e63;
@@ -58,4 +59,7 @@
       }
     }
   }
+}
+.pay-method {
+  cursor: pointer;
 }

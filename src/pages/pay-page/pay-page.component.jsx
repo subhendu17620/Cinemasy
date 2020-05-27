@@ -159,6 +159,25 @@ class PayPage extends React.Component {
               required
             />
             <div>
+              <span>
+                <img
+                  className="pay-method"
+                  src="https://cdn2.iconfinder.com/data/icons/social-icons-color/512/paytm-512.png"
+                  alt=""
+                  srcset=""
+                  width="100px"
+                  height="auto"
+                />
+                &nbsp; &nbsp;
+                <img
+                  className="pay-method"
+                  src="https://cdn3.iconfinder.com/data/icons/payment-method-1/64/_Paypal-39-512.png"
+                  alt=""
+                  srcset=""
+                  width="100px"
+                  height="auto"
+                />
+              </span>
               <button
                 className="button"
                 type="submit"
